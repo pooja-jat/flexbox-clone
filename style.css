@@ -1,0 +1,51 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #container {
+  padding: 20px;
+ height: 800px;
+ background-color: black;  
+ flex-direction: row;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+  }
+
+  .box {
+  height: 200px;
+  width:200px;
+  background-color: blue;
+  border: 1px solid white;
+  margin: 10px;
+    background-position: center;
+  background-size: cover;
+  }
+
+  .box:first-child {
+   background-image: url(https://th.bing.com/th/id/R.71fc55a0f2becd702cc4a893980dea57?rik=XOUhz40Jc9OcYg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-images-6.jpg&ehk=BQoi8QCZQtCfHkXWT0TIAxv1vTtTO1rY7ctKskX6Xfs%3d&risl=&pid=ImgRaw&r=0)
+
+  }
+
+  .box:nth-child(2) {
+   background-image: url(https://wallup.net/wp-content/uploads/2018/03/19/579265-water-green-nature-waterfall.jpg); 
+  }
+
+  .box:nth-child(3) {
+    background-image: url(https://wallpapercave.com/wp/wp8819684.jpg); 
+   }
+
+   .box:nth-child(4) {
+    background-image: url(http://ts2.mm.bing.net/th?id=OIP.GvntOdvz80txbfbW4rz2kAHaEo&pid=15.1); 
+   }
+
+   .box:nth-child(5) {
+    background-image: url(https://i.pinimg.com/originals/92/eb/77/92eb774d7e6eabb8f0beb4954b012277.jpg); 
+   }
+
+   .box:last-child {
+    background-image: url(https://wallpapercave.com/wp/wp2659541.jpg); 
+   }
